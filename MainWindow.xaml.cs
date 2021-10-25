@@ -20,9 +20,23 @@ namespace Vlasceanu_CristinaRafaella_Lab2
     /// </summary>
     public partial class MainWindow : Window
     {
+        private DoughnutMachine myDoughnutMachine;
+        private int mRaisedGlazed;
+        private int mRaisedSugar;
+        private int mFilledLemon;
+        private int mFilledChocolate;
+        private int mFilledVanilla;
         public MainWindow()
         {
             InitializeComponent();
         }
+
+        private void frmMain_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
+// https://www.w3schools.com/cs/cs_properties.php //
+// https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/
+//
